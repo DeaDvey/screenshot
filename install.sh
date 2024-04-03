@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "You need xclip installed for the xorg screenshot tool"
+echo "You need xclip and maim installed for the xorg screenshot tool"
 echo "You need slurp, grim and wl-clipboard for the wayland screenshot tool"
 read -p 'do you have these tools installed? (y/n): ' confirmation
 if [ $confirmation = 'y' ]
